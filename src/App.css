@@ -6,8 +6,10 @@
 }
 
 .home,
-.services,
-.products,
+/* .services, leaving services and products here for when i start advetising my services but rn it's calm
+.products, */
+.resume,
+.contact,
 .sign-up {
   display: flex;
   height: 90vh;
@@ -15,9 +17,9 @@
   justify-content: center;
   font-size: 3rem;
 }
-
+/* 
 .services {
-  background-image: url('../src/images/img-2.jpg');
+  background-image: url('images/img-2.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -26,7 +28,25 @@
 }
 
 .products {
-  background-image: url('../src/images/img-1.jpg');
+  background-image: url('images/img-1.jpg');
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+} */
+
+.resume {
+  background-image: url('images/img-2.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.contact {
+  background-image: url('images/img-1.jpg');
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
@@ -35,7 +55,7 @@
 }
 
 .sign-up {
-  background-image: url('../src/images/img-8.jpg');
+  background-image: url('images/img-8.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

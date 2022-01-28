@@ -25,9 +25,7 @@ export const Button = ({
   buttonStyle,
   buttonSize
 }) => {
-  const checkButtonStyle = STYLES.includes(buttonStyle)
-    ? buttonStyle
-    : STYLES[0];
+  const checkButtonStyle = STYLES.includes(buttonStyle) ? buttonStyle : STYLES[0]; // dflt to btn--primary
 
   const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
 
@@ -38,7 +36,7 @@ export const Button = ({
         onClick={onClick}
         type={type}
       >
-        {children}
+        {children} {/* renders whatevr u put inside button  */}
       </button>
     </Link>
   );

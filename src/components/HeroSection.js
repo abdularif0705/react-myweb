@@ -8,24 +8,28 @@ function HeroSection() {
   return (
     <div className='hero-container'>
       <video src={video} autoPlay loop muted /> {/* <video src='../videos/video-1.mp4' autoPlay loop muted /> */}
-      <h1>ADVENTURE AWAITS</h1>
-      <p>What are you waiting for?</p>
+      <h1>PORTFOLIO</h1>
+      <p>Abdul Arif</p>
       <div className='hero-btns'>
         <Button
           className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
+          onClick={(e) => {
+            e.preventDefault();
+            window.location.href = 'https://arifb.myweb.cs.uwindsor.ca/portfolio/html/';
+          }}
         >
-          GET STARTED
+          OLD WEBSITE
         </Button>
-        <Button
+        {/* <Button
           className='btns'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
           onClick={console.log('hey')}
         >
           WATCH TRAILER <i className='far fa-play-circle' />
-        </Button>
+        </Button> */}
       </div>
     </div>
   );

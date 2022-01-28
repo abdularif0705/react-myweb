@@ -1,20 +1,26 @@
 import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
+// import Video from 'react-native-video';
 
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Check out these EPIC Destinations!</h1>
+      <h1>Check out some of my Projects!</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
+            {/* <a href='https://ctl2.uwindsor.ca/vidlinks/95106DD5AD55E590.html'></a> */}
             <CardItem
               src='../images/img-9.jpg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
-              path='/services'
+              text='First person shooter Capture the Flag game made using Unity and C#'
+              label='Sci-Fi'
+              path='https://ctl2.uwindsor.ca/vidlinks/95106DD5AD55E590.html'
             />
+            {/* <Video
+              source={{ url: 'https://ctl2.uwindsor.ca/vidlinks/95106DD5AD55E590.html' }}
+            /> */}
+            {/* <a/> */}
             <CardItem
               src='../images/img-2.jpg'
               text='Travel through the Islands of Bali in a Private Cruise'
@@ -22,7 +28,7 @@ function Cards() {
               path='/services'
             />
           </ul>
-          <ul className='cards__items'>
+          {/* <ul className='cards__items'>
             <CardItem
               src='../images/img-3.jpg'
               text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
@@ -41,7 +47,7 @@ function Cards() {
               label='Adrenaline'
               path='/sign-up'
             />
-          </ul>
+          </ul> */}
         </div>
       </div>
     </div>

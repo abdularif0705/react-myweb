@@ -8,7 +8,7 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Join the Adventure newsletter to receive our best vacation deals
+          Example of a subscription box I can make for you
         </p>
         <p className='footer-subscription-text'>
           You can unsubscribe at any time.
@@ -43,7 +43,7 @@ function Footer() {
             <Link to='/'>Sponsorships</Link>
           </div>
         </div>
-        <div className='footer-link-wrapper'>
+        {/* <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>Videos</h2>
             <Link to='/'>Submit Video</Link>
@@ -58,23 +58,23 @@ function Footer() {
             <Link to='/'>Youtube</Link>
             <Link to='/'>Twitter</Link>
           </div>
-        </div>
+        </div> */}
       </div>
       <section class='social-media'>
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              TRVL
+              ARIF
               <i class='fab fa-typo3' />
             </Link>
           </div>
-          <small class='website-rights'>TRVL © {new Date().getFullYear()}</small>
+          <small class='website-rights'>ARIF © {new Date().getFullYear()}</small>
           {/* <small class='website-rights'>TRVL © 2020</small> */}
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'
               to='/'
-              target='_blank'
+              target='https://www.facebook.com/abdulrehman.arif.7967'
               aria-label='Facebook'
             >
               <i class='fab fa-facebook-f' />
@@ -82,12 +82,12 @@ function Footer() {
             <Link
               class='social-icon-link instagram'
               to='/'
-              target='_blank'
+              target='https://www.instagram.com/abdul.arif2000/'
               aria-label='Instagram'
             >
               <i class='fab fa-instagram' />
             </Link>
-            <Link
+            {/* <Link
               class='social-icon-link youtube'
               to='/'
               target='_blank'
@@ -102,14 +102,23 @@ function Footer() {
               aria-label='Twitter'
             >
               <i class='fab fa-twitter' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
+            </Link> */}
+            <a
+              class='social-icon-link linkedin'
               to='/'
               target='_blank'
+              href='https://www.linkedin.com/in/abdul-arif-504b43193/'
               aria-label='LinkedIn'
             >
               <i class='fab fa-linkedin' />
+            </a>
+            <Link
+              class='social-icon-link github'
+              to='/'
+              target='http://www.github.com/abdularif0705'
+              aria-label='GitHub'
+            >
+              <i class='fab fa-github' />
             </Link>
           </div>
         </div>
